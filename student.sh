@@ -6,7 +6,7 @@ echo "***************************"
 sudo timedatectl set-timezone Europe/Helsinki
 setxkbmap fi
 sudo apt update
-sudo apt install -y git puppet
+sudo apt install -y git puppet firefox
 
 
 cd /etc/puppet/modules
