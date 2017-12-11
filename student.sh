@@ -3,10 +3,8 @@ echo " "
 echo "Hello $USER"
 echo " "
 echo "***************************"
-sudo timedatectl set-timezone Europe/Helsinki
-setxkbmap fi
-sudo apt update
-sudo apt install -y git puppet firefox
+
+sudo apt install -y git puppetmaster
 
 
 cd /etc/puppet/modules
